@@ -1,5 +1,0 @@
----
-title: Codemeta Terms
-
----
-
