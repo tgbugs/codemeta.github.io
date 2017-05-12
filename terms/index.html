@@ -131,11 +131,606 @@
 <div class = "container">
 
   <div class="row">
-    <div class="col-md-8 col-md-offset-1">
+    <div class="col-md-11 col-md-offset-1">
       <article>
       <h1>Codemeta Terms</h1> 
         
       
+
+<h2 id="terms-from-schema-org">Terms from Schema.org</h2>
+
+<p>Recognized properties for CodeMeta <code>Code</code> includes the following terms from <a href="https://schema.org">https://schema.org</a>:</p>
+
+
+
+<br />
+ <table class="table-striped">
+    <thead>
+      <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    
+    
+    
+    
+    
+      <tr>
+        <td>codeRepository</td>
+        <td>URL </td>
+        <td>Link to the repository where the un-compiled, human readable code and related code is located (SVN, github, CodePlex).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>programmingLanguage</td>
+        <td>ComputerLanguage  or Text</td>
+        <td>The computer programming language.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>runtimePlatform</td>
+        <td>Text </td>
+        <td>Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0). Supersedes runtime.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>targetProduct</td>
+        <td>SoftwareApplication </td>
+        <td>Target Operating System / Product to which the code applies. If applies to several versions, just the product name can be used.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>applicationCategory</td>
+        <td>Text  or URL</td>
+        <td>Type of software application, e.g. &#39;Game, Multimedia&#39;.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>applicationSubCategory</td>
+        <td>Text  or URL</td>
+        <td>Subcategory of the application, e.g. &#39;Arcade Game&#39;.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>downloadUrl</td>
+        <td>URL </td>
+        <td>If the file can be downloaded, URL to download the binary.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>fileSize</td>
+        <td>Text </td>
+        <td>Size of the application / package (e.g. 18MB). In the absence of a unit (MB, KB etc.), KB will be assumed.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>installUrl</td>
+        <td>URL </td>
+        <td>URL at which the app may be installed, if different from the URL of the item.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>memoryRequirements</td>
+        <td>Text  or URL</td>
+        <td>Minimum memory requirements.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>operatingSystem</td>
+        <td>Text </td>
+        <td>Operating systems supported (Windows 7, OSX 10.6, Android 1.6).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>permissions</td>
+        <td>Text </td>
+        <td>Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>processorRequirements</td>
+        <td>Text </td>
+        <td>Processor architecture required to run the application (e.g. IA64).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>releaseNotes</td>
+        <td>Text  or URL</td>
+        <td>Description of what changed in this version.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>softwareHelp</td>
+        <td>CreativeWork </td>
+        <td>Software application help.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>softwareRequirements</td>
+        <td>Text  or URL</td>
+        <td>Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime). Supersedes requirements.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>softwareVersion</td>
+        <td>Text </td>
+        <td>Version of the software instance.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>storageRequirements</td>
+        <td>Text  or URL</td>
+        <td>Storage requirements (free space required).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>supportingData</td>
+        <td>DataFeed </td>
+        <td>Supporting data for a SoftwareApplication.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>author</td>
+        <td>Organization  or Person</td>
+        <td>The author of this content or rating. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>citation</td>
+        <td>CreativeWork  or URL</td>
+        <td>A citation or reference to another creative work, such as another publication, web page, scholarly article, etc.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>contributor</td>
+        <td>Organization  or Person</td>
+        <td>A secondary contributor to the CreativeWork or Event.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>copyrightHolder</td>
+        <td>Organization  or Person</td>
+        <td>The party holding the legal copyright to the CreativeWork.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>copyrightYear</td>
+        <td>Number </td>
+        <td>The year during which the claimed copyright for the CreativeWork was first asserted.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>creator</td>
+        <td>Organization  or Person</td>
+        <td>The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>dateCreated</td>
+        <td>Date  or DateTime</td>
+        <td>The date on which the CreativeWork was created or the item was added to a DataFeed.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>dateModified</td>
+        <td>Date  or DateTime</td>
+        <td>The date on which the CreativeWork was most recently modified or when the item&#39;s entry was modified within a DataFeed.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>datePublished</td>
+        <td>Date </td>
+        <td>Date of first broadcast/publication.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>editor</td>
+        <td>Person </td>
+        <td>Specifies the Person who edited the CreativeWork.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>encoding</td>
+        <td>MediaObject </td>
+        <td>A media object that encodes this CreativeWork. This property is a synonym for associatedMedia. Supersedes encodings.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>fileFormat</td>
+        <td>Text  or URL</td>
+        <td>Media type, typically MIME format (see IANA site) of the content e.g. application/zip of a SoftwareApplication binary. In cases where a CreativeWork has several media type representations, &#39;encoding&#39; can be used to indicate each MediaObject alongside particular fileFormat information. Unregistered or niche file formats can be indicated instead via the most appropriate URL, e.g. defining Web page or a Wikipedia entry.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>funder</td>
+        <td>Organization  or Person</td>
+        <td>A person or organization that supports (sponsors) something through some kind of financial contribution.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>keywords</td>
+        <td>Text </td>
+        <td>Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>license</td>
+        <td>CreativeWork  or URL</td>
+        <td>A license document that applies to this content, typically indicated by URL.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>producer</td>
+        <td>Organization  or Person</td>
+        <td>The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.).</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>provider</td>
+        <td>Organization  or Person</td>
+        <td>The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller. Supersedes carrier.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>publisher</td>
+        <td>Organization  or Person</td>
+        <td>The publisher of the creative work.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>sponsor</td>
+        <td>Organization  or Person</td>
+        <td>A person or organization that supports a thing through a pledge, promise, or financial contribution. e.g. a sponsor of a Medical Study or a corporate sponsor of an event.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>version</td>
+        <td>Number  or Text</td>
+        <td>The version of the CreativeWork embodied by a specified resource.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>description</td>
+        <td>Text </td>
+        <td>A description of the item.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>identifier</td>
+        <td>PropertyValue  or URL</td>
+        <td>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See background notes for more details.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>name</td>
+        <td>Text </td>
+        <td>The name of the item.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>sameAs</td>
+        <td>URL </td>
+        <td>URL of a reference Web page that unambiguously indicates the item&#39;s identity. E.g. the URL of the item&#39;s Wikipedia page, Wikidata entry, or official website.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>url</td>
+        <td>URL </td>
+        <td>URL of the item.</td>
+      </tr>
+    
+    
+    </tbody>
+  </table>
+  <br />
+  
+
+<p>These terms are all recognized properties of <a href="https://schema.org/SoftwareSourceCode">https://schema.org/SoftwareSourceCode</a> or <a href="https://schema.org/SoftwareApplication">https://schema.org/SoftwareApplication</a> Types. Note that while most properties take basic data types as values (<code>Text</code>, <code>URL</code>), several take other node types, such as <code>Person</code> or <code>Organization</code>.  Recommended fields for these node types in CodeMeta documents are given below.</p>
+
+<h2 id="codemeta-terms">Codemeta terms</h2>
+
+<p>The CodeMeta project also introduces the following additional properties, which lack clear equivalents in <a href="https://schema.org">https://schema.org</a> but can play an important role in software metadata records covered by the CodeMeta crosswalk.</p>
+
+<p>
+
+<br />
+ <table class="table-striped">
+    <thead>
+      <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    
+    
+    
+    
+    
+      <tr>
+        <td>depends</td>
+        <td>SoftwareSourceCode</td>
+        <td>Required software dependencies</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>suggests</td>
+        <td>SoftwareSourceCode</td>
+        <td>Optional dependencies , e.g. for optional features, code development, etc</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>maintainer</td>
+        <td>Person</td>
+        <td>Individual responsible for maintaining the software (usually includes an email contact address)</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>contIntegration</td>
+        <td>URL</td>
+        <td>link to continuous integration service</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>licenseId</td>
+        <td>Text</td>
+        <td>Abbreviation for an open source license, ideally an SPDX code. (Compare to schema:license which is @type URL or CreativeWork)</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>buildInstructions</td>
+        <td>URL</td>
+        <td>link to installation instructions/documentation</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>developmentStatus</td>
+        <td>Text</td>
+        <td>Description of development status, e.g. Active, inactive, supsended. See repostatus.org</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>embargoDate</td>
+        <td>Date</td>
+        <td>Software may be embargoed from public access until a specified date (e.g. pending publication, 1 year from publication)</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>funding</td>
+        <td>Text</td>
+        <td>Funding source (e.g. specific grant)</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>packageSystem</td>
+        <td>Organization or URL</td>
+        <td>package distribution system, such as CRAN url, Node registry, etc.  Consider using schema:provider instead?</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>issueTracker</td>
+        <td>URL</td>
+        <td>link to software bug reporting or issue tracking system</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>relatedPublications</td>
+        <td>ScholarlyArticle</td>
+        <td>An academic publication related to the software. </td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>readme</td>
+        <td>URL</td>
+        <td>link to software Readme file</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>relationships</td>
+        <td>codemeta:Relationship</td>
+        <td>A DataCite relationship triple of relationshipType, relatedIdentifier, and relatedIdentifierType</td>
+      </tr>
+    
+    
+    </tbody>
+  </table>
+  <br />
+  </p>
+
+<h2 id="additional-node-types">Additional node types</h2>
+
+<h3 id="person-or-organization">Person or Organization</h3>
+
+<p>
+
+<br />
+ <table class="table-striped">
+    <thead>
+      <tr>
+      <th>Property</th>
+      <th>Type</th>
+      <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    
+    
+    
+    
+    
+      <tr>
+        <td>givenName</td>
+        <td>Text</td>
+        <td>Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>familyName</td>
+        <td>Text</td>
+        <td>Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property.</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>email</td>
+        <td>Text</td>
+        <td>Email address</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>affiliation</td>
+        <td>Text</td>
+        <td>An organization that this person is affiliated with. For example, a school/university</td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>&#34;@id&#34;</td>
+        <td>URL</td>
+        <td>URL identifer, ideally an ORCID ID for individuals, a FundRef ID for funders </td>
+      </tr>
+    
+    
+    
+      <tr>
+        <td>name</td>
+        <td>Text</td>
+        <td>The name of an Organization, or if separate given and family names cannot be resolved for a Person</td>
+      </tr>
+    
+    
+    </tbody>
+  </table>
+  <br />
+  </p>
+
+<p>Please suggest additional terms or adjustments to this representation in the <a href="https://github.com/codemeta/codemeta/issues">codmeta issues</a></p>
+
       </article>
     </div>
   </div>
