@@ -23,7 +23,23 @@
   </url>
   
   <url>
-    <loc>/crosswalk/r-description/</loc>
+    <loc>/crosswalk/datacite/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/github/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/r/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/zenodo/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/figshare/</loc>
   </url>
   
   <url>

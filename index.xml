@@ -39,13 +39,50 @@
     </item>
     
     <item>
-      <title>Crosswalk for R Package DESCRIPTION file</title>
-      <link>/crosswalk/r-description/</link>
+      <title>Crosswalk for DataCite metadata</title>
+      <link>/crosswalk/datacite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/crosswalk/r-description/</guid>
+      <guid>/crosswalk/datacite/</guid>
+      <description>  Property  DataCite      programmingLanguage  Format    dateCreated  Date (dateType=Created)    dateModified  DaTe (dateType=Issued)    datePublished  PublicationYear    fileFormat  Format    license  Rights    publisher  Publisher    version  Version    description  Description    licenseId  Rights    relationships  RelatedIdentifier(relationType=isPartOf), RelatedIdentifier(relationType=isVariantFormOf), RelatedIdentifier(relationType=isPreviousVersionOf), RelatedIdentifier(relationType=isNextVersionOf)    &amp;quot;@id&amp;quot;;  nameIdentifier     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for GitHub metadata</title>
+      <link>/crosswalk/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/github/</guid>
+      <description>  Property  GitHub      programmingLanguage  languages_url    dateCreated  created_at    dateModified  updated_at    license  license    description  description    licenseId  license    issueTracker  issues_url     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for R Package DESCRIPTION file</title>
+      <link>/crosswalk/r/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/r/</guid>
       <description>The following table displays the crosswalk mapping of terms from the R package DESCRIPTION file to codemeta properties.
-  Property R Package Description    codeRepository URL  creator [cre] Author  dateCreated -  dateModified -  datePublished Date  editor -  license License  description Description  name Package  url URL  depends Depends, SystemRequirements  suggests Suggests  maintainer Maintainer  licenseId License  issueTracker BugReports  givenName givenName  familyName familyName  email email    </description>
+  Property  R Package Description      codeRepository  URL    author  [aut] in Author    contributor  [ctb] in Author    creator  [cre] in Author    datePublished  Date    license  License    description  Description    name  Package    url  URL    depends  Depends, SystemRequirements    suggests  Suggests    maintainer  Maintainer    licenseId  License    issueTracker  BugReports    givenName  givenName    familyName  familyName    email  email     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for Zenodo metadata</title>
+      <link>/crosswalk/zenodo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/zenodo/</guid>
+      <description>Zenodo.org is a data archive based at CERN which is popularly used to archive and provide DOIs to academic software from GitHub, as described in the official GitHub guide to Making your code citable.
+  Property  Zenodo      codeRepository  relatedLink    applicationCategory  communities    datePublished  date_published    funder  contributors.Funder    keywords  keywords    license  license    description  description/notes    licenseId  license    &amp;quot;@id&amp;quot;;  ORCID     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for figshare metadata</title>
+      <link>/crosswalk/figshare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/figshare/</guid>
+      <description>  Property  Figshare      codeRepository  relatedLink    applicationCategory  categories    datePublished  date_retrieved    keywords  tags    license  License    description  Description    licenseId  License    embargoDate  embargo_date    &amp;quot;@id&amp;quot;;  ORCID    name  name     </description>
     </item>
     
     <item>

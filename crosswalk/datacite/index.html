@@ -31,10 +31,10 @@
 
   <link rel="icon" type="image/png" href="../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../img/apple-touch-icon.png">
-  <link rel="canonical" href="../../crosswalk/r-description/">
+  <link rel="canonical" href="../../crosswalk/datacite/">
 
 
-  <title>Crosswalk for R Package DESCRIPTION file | The CodeMeta Project</title>
+  <title>Crosswalk for DataCite metadata | The CodeMeta Project</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -145,9 +145,9 @@
   <div class="row">
     <div class="col-md-11 col-md-offset-1">
       <article>
-      <h1>Crosswalk for R Package DESCRIPTION file</h1> 
+      <h1>Crosswalk for DataCite metadata</h1> 
         
-      <p>The following table displays the crosswalk mapping of terms from the R package DESCRIPTION file to codemeta properties.</p>
+      <p><img src="../../img/datacite.png" width="400" /></p>
 <table class="table table-striped">
 <thead>
 <tr>
@@ -155,41 +155,33 @@
 Property
 </th>
 <th style="text-align:left;">
-R Package Description
+DataCite
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td style="text-align:left;">
-codeRepository
+programmingLanguage
 </td>
 <td style="text-align:left;">
-URL
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-author
-</td>
-<td style="text-align:left;">
-[aut] in Author
+Format
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-contributor
+dateCreated
 </td>
 <td style="text-align:left;">
-[ctb] in Author
+Date (dateType=Created)
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-creator
+dateModified
 </td>
 <td style="text-align:left;">
-[cre] in Author
+DaTe (dateType=Issued)
 </td>
 </tr>
 <tr>
@@ -197,7 +189,15 @@ creator
 datePublished
 </td>
 <td style="text-align:left;">
-Date
+PublicationYear
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+fileFormat
+</td>
+<td style="text-align:left;">
+Format
 </td>
 </tr>
 <tr>
@@ -205,7 +205,23 @@ Date
 license
 </td>
 <td style="text-align:left;">
-License
+Rights
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+publisher
+</td>
+<td style="text-align:left;">
+Publisher
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+version
+</td>
+<td style="text-align:left;">
+Version
 </td>
 </tr>
 <tr>
@@ -218,82 +234,26 @@ Description
 </tr>
 <tr>
 <td style="text-align:left;">
-name
-</td>
-<td style="text-align:left;">
-Package
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-url
-</td>
-<td style="text-align:left;">
-URL
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-depends
-</td>
-<td style="text-align:left;">
-Depends, SystemRequirements
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-suggests
-</td>
-<td style="text-align:left;">
-Suggests
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-maintainer
-</td>
-<td style="text-align:left;">
-Maintainer
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
 licenseId
 </td>
 <td style="text-align:left;">
-License
+Rights
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-issueTracker
+relationships
 </td>
 <td style="text-align:left;">
-BugReports
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-givenName
-</td>
-<td style="text-align:left;">
-givenName
+RelatedIdentifier(relationType=isPartOf), RelatedIdentifier(relationType=isVariantFormOf), RelatedIdentifier(relationType=isPreviousVersionOf), RelatedIdentifier(relationType=isNextVersionOf)
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-familyName
+<a href="mailto:%22@id%22">&quot;@id&quot;</a>;
 </td>
 <td style="text-align:left;">
-familyName
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-email
-</td>
-<td style="text-align:left;">
-email
+nameIdentifier
 </td>
 </tr>
 </tbody>
