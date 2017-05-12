@@ -49,6 +49,15 @@
     </item>
     
     <item>
+      <title>Examples</title>
+      <link>/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/examples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Codemeta JSON-LD Representation</title>
       <link>/jsonld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -56,6 +65,15 @@
       <guid>/jsonld/</guid>
       <description>The JSON-LD Context File CodeMeta properties can be serialized in JSON-LD by referencing the context file: &amp;quot;@context&amp;quot;: &amp;quot;https://doi.org/10.5063/SCHEMA/CODEMETA-1.0&amp;quot;. CodeMeta properties are built on and extend software properties from https://schema.org. A list of all properties provided by the current CodeMeta context file can be found on the terms page.
 Aside from the use of @context, codemeta JSON-LD looks like any other json metadata record, and can be easily written by hand.</description>
+    </item>
+    
+    <item>
+      <title>Use Cases</title>
+      <link>/use-cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/use-cases/</guid>
+      <description></description>
     </item>
     
   </channel>
