@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/crosswalk/</loc>
-  </url>
-  
-  <url>
     <loc>/agenda/</loc>
   </url>
   
@@ -27,11 +23,39 @@
   </url>
   
   <url>
+    <loc>/crosswalk/debian/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/dublincore/</loc>
+  </url>
+  
+  <url>
     <loc>/crosswalk/github/</loc>
   </url>
   
   <url>
+    <loc>/crosswalk/java/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/node/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/python/</loc>
+  </url>
+  
+  <url>
     <loc>/crosswalk/r/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/ruby/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/trove/</loc>
   </url>
   
   <url>
@@ -40,6 +64,10 @@
   
   <url>
     <loc>/crosswalk/figshare/</loc>
+  </url>
+  
+  <url>
+    <loc>/crosswalk/</loc>
   </url>
   
   <url>

@@ -31,10 +31,10 @@
 
   <link rel="icon" type="image/png" href="../../img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="../../img/apple-touch-icon.png">
-  <link rel="canonical" href="../../crosswalk/github/">
+  <link rel="canonical" href="../../crosswalk/pypi/">
 
 
-  <title>Crosswalk for GitHub API | The CodeMeta Project</title>
+  <title>Crosswalk for Python PyPi metadata | The CodeMeta Project</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -148,16 +148,17 @@
   <div class="row">
     <div class="col-md-11 col-md-offset-1">
       <article>
-      <h1>Crosswalk for GitHub API</h1> 
+      <h1>Crosswalk for Python PyPi metadata</h1> 
         
-      <table class="table table-striped">
+      <p><a href="https://docs.python.org/3.6/distutils/">Python <code>distutils</code></a> allows users to associate a range of metadata information when packaging and distributing python-based applications or source code.</p>
+<table class="table table-striped">
 <thead>
 <tr>
 <th style="text-align:left;">
 Property
 </th>
 <th style="text-align:left;">
-GitHub
+Python Distutils (PyPI)
 </th>
 </tr>
 </thead>
@@ -167,7 +168,7 @@ GitHub
 codeRepository
 </td>
 <td style="text-align:left;">
-html_url
+url
 </td>
 </tr>
 <tr>
@@ -175,39 +176,31 @@ html_url
 programmingLanguage
 </td>
 <td style="text-align:left;">
-languages_url
+classifiers[‘Programming Language’]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-downloadUrl
+applicationCategory
 </td>
 <td style="text-align:left;">
-archive_url
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-author
-</td>
-<td style="text-align:left;">
-login
+classifiers[‘Topic’]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-dateCreated
+operatingSystem
 </td>
 <td style="text-align:left;">
-created_at
+classifiers[‘Operating System’]
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-dateModified
+keywords
 </td>
 <td style="text-align:left;">
-updated_at
+keywords
 </td>
 </tr>
 <tr>
@@ -223,15 +216,7 @@ license
 description
 </td>
 <td style="text-align:left;">
-description
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-identifier
-</td>
-<td style="text-align:left;">
-id
+description, long_description
 </td>
 </tr>
 <tr>
@@ -239,7 +224,15 @@ id
 name
 </td>
 <td style="text-align:left;">
-full_name
+name
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+depends
+</td>
+<td style="text-align:left;">
+install_requires
 </td>
 </tr>
 <tr>
@@ -252,10 +245,18 @@ license
 </tr>
 <tr>
 <td style="text-align:left;">
-issueTracker
+developmentStatus
 </td>
 <td style="text-align:left;">
-issues_url
+classifiers[‘Development Status’]
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+email
+</td>
+<td style="text-align:left;">
+author_email
 </td>
 </tr>
 </tbody>
