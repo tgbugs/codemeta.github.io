@@ -122,7 +122,7 @@
       
       <guid>/crosswalk/r/</guid>
       <description>The following table displays the crosswalk mapping of terms from the R package DESCRIPTION file to codemeta properties.
-  Property  R Package Description      codeRepository  URL    softwareRequirements  Depends, SystemRequirements    author  [aut] in Author    contributor  [ctb] in Author    creator  [cre] in Author    datePublished  Date    license  License    description  Description    identifier  Package    name  Title    url  URL    givenName  givenName    familyName  familyName    email  email    suggests  Suggests    maintainer  Maintainer    issueTracker  BugReports     </description>
+  Property  R Package Description      codeRepository  URL    softwareRequirements  Depends, SystemRequirements    author  [aut] in Author    contributor  [ctb] in Author    creator  [cre] in Author    datePublished  Date    license  License    description  Description    identifier  Package    name  Title    url  URL    givenName  givenName    familyName  familyName    email  email    softwareSuggestions  Suggests    maintainer  Maintainer    issueTracker  BugReports     </description>
     </item>
     
     <item>
@@ -132,7 +132,7 @@
       
       <guid>/crosswalk/ruby/</guid>
       <description>Ruby gems specify metadata in a .gemspec file.
-  Property  Ruby Gem      codeRepository  homepage    runtimePlatform  platform    softwareRequirements  requirements, add_runtime_dependency    author  author    license  license/licenses    version  version    description  summary, description    name  name    email  email    suggests  add_development_dependency     </description>
+  Property  Ruby Gem      codeRepository  homepage    runtimePlatform  platform    softwareRequirements  requirements, add_runtime_dependency    author  author    license  license/licenses    version  version    description  summary, description    name  name    email  email    softwareSuggestions  add_development_dependency     </description>
     </item>
     
     <item>
@@ -180,7 +180,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/jsonld/</guid>
-      <description>CodeMeta uses JSON-LD to represent and translate between software metadata formats. JSON-LD lead developer Mau Sporny explains how JSON-LD works in this short clip:
+      <description>CodeMeta uses JSON-LD to represent and translate between software metadata formats. JSON-LD lead developer Manu Sporny explains how JSON-LD works in this short clip:
   The JSON-LD Context File The current codemeta context file can be found at CodeMeta properties are built on and extend software properties from https://schema.org. A list of all properties provided by the current CodeMeta context file can be found on the terms page. Here&amp;rsquo;s an example codemeta.</description>
     </item>
     
