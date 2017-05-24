@@ -10,6 +10,44 @@
     
     
     <item>
+      <title></title>
+      <link>/developer-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/developer-guide/</guid>
+      <description>CodeMeta Developer Guide This guide is intended for software developers who require detailed information about the CodeMeta project&amp;rsquo;s usage of JavaScript Object Notation for Linked Data (JSON-LD) for defining a methodology for creating software package descriptions. For example, this guide may be helpful for developers that are designing software to generate or read CodeMeta JSON software descriptions.
+Users that only require instructions for manually creating CodeMeta software descriptions may wish to review the upcoming User Guide.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tools/</guid>
+      <description>Tools This page lists some existing tools to help with CodeMeta files
+File Generation Author: Arfon Smith
+Language: Ruby
+Description: Ruby file to generate a CodeMeta JSON file for version 0.1.0
+CodeMeta file generation tool
+Integrations Author: Arfon Smith, Kaitlin Thaney, Mark Hahnel
+Language: Ruby
+Description: An ungodly union of GitHub and Figshare
+Fidget</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/use-cases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/use-cases/</guid>
+      <description>Edited Use cases CodeMeta meeting in Portland Created 20160415 (use cases group pulled from here 230pm 20160516) https://docs.google.com/document/d/1SalOP_tLw7FC6jnoz5hJBB2jA7xBClKqc88wgmJu5Ro/edit
+The “six” Use Case categories: from Matt and Carl’s slide summary 20160417 * Facilitate citation * Enable credit, compliance, and quality * Facilitate discovery and access * Understand software functionality * Enable interoperability * Enable transparency and reproducibility
+THE ‘ORIGINAL’ 13 CASES: 20160415 Then determine a final set of categorized use cases based on these 3 different sets</description>
+    </item>
+    
+    <item>
       <title>Agenda</title>
       <link>/agenda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,16 +219,18 @@
       
       <guid>/jsonld/</guid>
       <description>CodeMeta uses JSON-LD to represent and translate between software metadata formats. JSON-LD lead developer Manu Sporny explains how JSON-LD works in this short clip:
-  The JSON-LD Context File The current codemeta context file can be found at CodeMeta properties are built on and extend software properties from https://schema.org. A list of all properties provided by the current CodeMeta context file can be found on the terms page. Here&amp;rsquo;s an example codemeta.</description>
+  The JSON-LD Context File The current codemeta context file can be found at 
+CodeMeta properties are built on and extend software properties from https://schema.org. A list of all properties provided by the current CodeMeta context file can be found on the terms page.</description>
     </item>
     
     <item>
-      <title>Use Cases</title>
-      <link>/use-cases/</link>
+      <title>user guide</title>
+      <link>/user-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/use-cases/</guid>
-      <description></description>
+      <guid>/user-guide/</guid>
+      <description>Creating A CodeMeta Instance File A CodeMeta instance file describes the metadata associated with a software object using JSON&amp;rsquo;s linked data (JSON-LD) notation. A codemeta file can contain any of the properties described on the CodeMeta terms page.
+When creating a CodeMeta document, note that they contain JSON name (&amp;ldquo;property&amp;rdquo; in linked-data), value pairs where the values can be simple values, arrays or JSON objects. A simple value is a number, string, or one the literal values false, null true, for example:</description>
     </item>
     
   </channel>
