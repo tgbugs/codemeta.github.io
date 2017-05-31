@@ -2,16 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/developer-guide/</loc>
+  </url>
+  
+  <url>
+    <loc>/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>/use-cases/</loc>
+  </url>
+  
+  <url>
     <loc>/agenda/</loc>
   </url>
   
   <url>
     <loc>/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/terms/</loc>
   </url>
   
   <url>
@@ -92,7 +100,7 @@
   </url>
   
   <url>
-    <loc>/use-cases/</loc>
+    <loc>/user-guide/</loc>
   </url>
   
 </urlset>

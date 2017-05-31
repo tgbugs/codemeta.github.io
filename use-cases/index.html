@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo 0.20.7" />
+  <meta name="generator" content="Hugo 0.20.2" />
   <meta name="author" content="codemeta">
   
 
@@ -34,7 +34,7 @@
   <link rel="canonical" href="../use-cases/">
 
 
-  <title>Use Cases | The CodeMeta Project</title>
+  <title> | The CodeMeta Project</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -89,18 +89,6 @@
         
 
         <li class="nav-item">
-          <a href="../jsonld/">
-            
-            <span>JSON-LD</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
           <a href="../terms/">
             
             <span>Terms</span>
@@ -113,9 +101,9 @@
         
 
         <li class="nav-item">
-          <a href="../examples">
+          <a href="../user-guide">
             
-            <span>Examples</span>
+            <span>User Guide</span>
           </a>
         </li>
 
@@ -125,9 +113,9 @@
         
 
         <li class="nav-item">
-          <a href="../use-cases">
+          <a href="../developer-guide">
             
-            <span>Use Cases</span>
+            <span>Developer Guide</span>
           </a>
         </li>
 
@@ -142,18 +130,270 @@
 
 <div class = "container">
    <div class="row">
-    <div class="col-md-11 col-md-offset-1">
+    <div class="col-md-11">
       <article>
       
-  <div class="row">
-    <div class="col-md-11 col-md-offset-1">
-      <article>
-      <h1>Use Cases</h1> 
+ 
+      
         
-      
-      </article>
-    </div>
-  </div>
+      <p>Edited Use cases
+CodeMeta meeting in Portland
+Created 20160415 (use cases group pulled from here 230pm 20160516) <a href="https://docs.google.com/document/d/1SalOP_tLw7FC6jnoz5hJBB2jA7xBClKqc88wgmJu5Ro/edit">https://docs.google.com/document/d/1SalOP_tLw7FC6jnoz5hJBB2jA7xBClKqc88wgmJu5Ro/edit</a></p>
+
+<p>The “six” Use Case categories: from Matt and Carl’s slide summary 20160417
+* Facilitate citation
+* Enable credit, compliance, and quality
+* Facilitate discovery and access
+* Understand software functionality
+* Enable interoperability
+* Enable transparency and reproducibility</p>
+
+<p>THE ‘ORIGINAL’ 13 CASES: 20160415
+Then determine a final set of categorized use cases based on these 3 different sets</p>
+
+<ol>
+<li>Identify software functionality
+
+<ul>
+<li>Overall</li>
+<li>Module level</li>
+<li>Function level</li>
+<li>Identify functional equivalency with other {modules, functions, etc)</li>
+</ul></li>
+<li>Understand dependencies
+
+<ul>
+<li>Identify Installation Dependencies (User)</li>
+<li>Identify Development/Build Dependencies (Developer)</li>
+<li>Use dependencies to enable transitive credit</li>
+<li>Automate build processes</li>
+<li>Identify dependencies to assign (aspects of? partial?) credit</li>
+<li>Understand role of software in an application (even if we cannot access or install)</li>
+</ul></li>
+<li>Facilitate Discovery
+
+<ul>
+<li>Support discovery for reuse</li>
+<li>Discover tools that can perform a specific function
+
+<ul>
+<li>Enable comparisons of tool functionality</li>
+</ul></li>
+<li>Classify and find tools by domain, and other controlled vocabularies</li>
+<li>Locate tools that were used for particular applications/results</li>
+<li>Discover location of software</li>
+</ul></li>
+<li>Enable credit, compliance, and evaluation
+
+<ul>
+<li>Identify roles of software contributors
+
+<ul>
+<li>Authors</li>
+<li>Metadata authors</li>
+<li>Curators</li>
+<li>Other roles (see publisher’s credit ontology)</li>
+</ul></li>
+<li>Document compliance with funders policies</li>
+<li>Identify funder of software</li>
+</ul></li>
+<li>Citation
+
+<ul>
+<li>Cite software product generally</li>
+<li>Cite a specific software version/release</li>
+<li>Cite a software paper describing the software</li>
+<li>Provide sufficient info for formal citation in the reference list (authors, title, repository, publication year)</li>
+<li>Link to a landing page with more detailed information about the software</li>
+<li>Link to the source code</li>
+</ul></li>
+<li>Count the citations to a given version of software
+
+<ul>
+<li>For acknowledgement/credit</li>
+<li>As a quality metric for discovery</li>
+</ul></li>
+<li>Aggregate by person, by infrastructure, etc.</li>
+<li>Enable Interoperability
+
+<ul>
+<li>Describe platform, language constraints</li>
+<li>Describe input-output formats</li>
+<li>Describe input-output semantics</li>
+<li>Enable pipeline building</li>
+<li>Describe constraints on parameters</li>
+<li>Identify license obligations</li>
+</ul></li>
+<li>Describe provenance information
+
+<ul>
+<li>Execution parameters, limitations / assumptions</li>
+</ul></li>
+<li>Enable transparency and reproducibility (via dependencies and source linkages)</li>
+<li>Communicate permissions / License terms</li>
+<li>Identify software status (See <a href="http://www.repostatus.org">http://www.repostatus.org</a>)
+
+<ul>
+<li>Build status</li>
+<li>Maintenance status</li>
+<li>Understand intention of software publication (compliance, reuse, etc.)</li>
+<li>…</li>
+</ul></li>
+<li>Motivate archiving of software</li>
+<li>Evaluate software quality</li>
+</ol>
+
+<p>Codemeta Meeting Portland, Edited Use cases, Working Document                        1
+Day 2, PM 20160416 : Carole Goble, Alice Allen, Ashley Sands, Patricia Cruse
+Edited Use cases
+Created 20160415 (use cases group pulled from here 3pm 20160516)
+CodeMeta meeting in Portland
+This document is the electronic version of the “whiteboarding” we did in the workshop</p>
+
+<pre><code>Stakeholder
+Utility Infrastructure
+Indexers
+Developer
+Repository Mgr.
+Researcher
+Funder
+Publisher
+Citation Mgr
+Library / Curator
+Action*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deposit**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Discover: 3, 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Analyse: 1, 2, 6, 9, 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C3R: 4, 5, 6
+</code></pre>
+
+<p>TO DO:
+*add subpoints to each action
+**add concepts (by #) under stakeholder for each relevant action sub-point</p>
+
+<p>Stakeholder list pulled from SCWG:
+<a href="https://github.com/force11/force11-scwg/blob/master/sc-principles/software-citation-principles.tex">https://github.com/force11/force11-scwg/blob/master/sc-principles/software-citation-principles.tex</a></p>
+
+<p>Stakeholders: Digital Repositories, Publishers, Information Science, Indexers, Software Developers,</p>
+
+<p>datacite/crossref/orcid &ndash; utility providers</p>
+
+<p>`Researcher&rdquo; includes both academic researchers (e.g., postdoc, tenure-track faculty member) and research software engineers. \item</p>
+
+<p>``Publisher&rdquo; includes both traditional publishers that publish text and\slash or software papers as well as archives such as Zenodo that directly publish software. \item</p>
+
+<p>``Funder&rdquo; is a group that funds software or work using software. \item</p>
+
+<p>`<code>Indexer'' examples include Scopus, Web of Science, Google Scholar, and Microsoft Academic Search. \item</code></p>
+
+<p>`Domain group\slash library\slash archive&rdquo; includes the Astronomy Source Code Library (ASCL)~\cite{ascl}, bioCADDIE~\cite{bioCADDIE}, Computational Infrastructure for Geodynamics (CIG)~\cite{CIG}, libraries, institutional archives, etc. \item</p>
+
+<p>`<code>Repository'' refers to public software repositories such as GitHub, Netlib, Comprehensive R Archive Network (CRAN), and institutional repositories. \item</code></p>
+
+<p><code>Citation manager</code> refers to people and organizations that create scholarly reference management software and websites including Zotero, Mendeley, EndNote, RefWorks, BibDesk, etc., that manage citation information and semi-automatically insert those citations into research products.</p>
+
+  
 
       </article>
       </div>
