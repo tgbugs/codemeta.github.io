@@ -5,14 +5,35 @@
     <link>/crosswalk/</link>
     <description>Recent content in Crosswalks on The CodeMeta Project</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/crosswalk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Crosswalk for WikiData Properties</title>
+      <link>/crosswalk/wikidata/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/wikidata/</guid>
+      <description>Wikidata provides internationalized set of properties for machine-readable linked data. (Surprisingly wikidata does not have a native JSON-LD format, distributing in plain json.)
+  Property  Wikidata      codeRepository  source code repository    programmingLanguage  programming language    operatingSystem  operating system    softwareRequirements  depends on software    softwareVersion  software version    datePublished  publication date    editor  editor    license  license    url  official website    issueTracker  bug tracking system     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for DOAP Ontology</title>
+      <link>/crosswalk/doap/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/doap/</guid>
+      <description>DOAP (Description of a Project) is an XML/RDF vocabulary to describe software projects, and in particular open source projects.
+  Property  DOAP      codeRepository  repository    programmingLanguage  programming-language    runtimePlatform  platform    downloadUrl  download-page    installUrl  download-mirror    operatingSystem  os    softwareVersion  release    author  developer    contributor  developer    keywords  category    license  license    publisher  vendor    url  homepage    maintainer  maintainer    issueTracker  bug-database    referencePublication  blog     </description>
+    </item>
+    
+    <item>
       <title>Crosswalk for DataCite metadata</title>
       <link>/crosswalk/datacite/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/datacite/</guid>
       <description>  Property  DataCite      programmingLanguage  Format    author  creators    dateCreated  date    dateModified  date    datePublished  publicationYear    fileFormat  Format    license  rights    publisher  publisher    version  version    description  description    identifier  identifier    relatedLink  RelateIdentifier    givenName  givenName    familyName  familyName    affiliation  affiliation    identifier  nameIdentifier     </description>
@@ -21,7 +42,7 @@
     <item>
       <title>Crosswalk for Debian packages</title>
       <link>/crosswalk/debian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/debian/</guid>
       <description>The Debian package system defines archive metadata that is used by the popular apt package managment system on Debian and Ubuntu Linux distributions.
@@ -29,18 +50,9 @@
     </item>
     
     <item>
-      <title>Crosswalk for Dublin Core metadata</title>
-      <link>/crosswalk/dublincore/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/crosswalk/dublincore/</guid>
-      <description>  Property  Dublin Core      creator  creator    dateCreated  created    datePublished  date    license  license    publisher  publisher    version  dcterms:hasVersion    description  description    identifier  identifier    name  title     </description>
-    </item>
-    
-    <item>
       <title>Crosswalk for GitHub API</title>
       <link>/crosswalk/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/github/</guid>
       <description>  Property  GitHub      codeRepository  html_url    programmingLanguage  languages_url    downloadUrl  archive_url    author  login    dateCreated  created_at    dateModified  updated_at    license  license    description  description    identifier  id    name  full_name    issueTracker  issues_url     </description>
@@ -49,7 +61,7 @@
     <item>
       <title>Crosswalk for Java&#39;s Maven metadata</title>
       <link>/crosswalk/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/java/</guid>
       <description>Maven is a popular packaging/build system for Java-based projects.
@@ -59,7 +71,7 @@
     <item>
       <title>Crosswalk for NodeJS package.json</title>
       <link>/crosswalk/node/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/node/</guid>
       <description>The npm package manager for NodeJS defines software metadata using a package.json file.
@@ -69,7 +81,7 @@
     <item>
       <title>Crosswalk for Python disutils</title>
       <link>/crosswalk/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/python/</guid>
       <description>Python distutils allows users to associate a range of metadata information when packaging and distributing python-based applications or source code.
@@ -79,7 +91,7 @@
     <item>
       <title>Crosswalk for R Packages</title>
       <link>/crosswalk/r/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/r/</guid>
       <description>The following table displays the crosswalk mapping of terms from the R package DESCRIPTION file to codemeta properties.
@@ -89,11 +101,30 @@
     <item>
       <title>Crosswalk for Ruby gems</title>
       <link>/crosswalk/ruby/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/crosswalk/ruby/</guid>
       <description>Ruby gems specify metadata in a .gemspec file.
   Property  Ruby Gem      codeRepository  homepage    runtimePlatform  platform    softwareRequirements  requirements, add_runtime_dependency    author  author    license  license/licenses    version  version    description  summary, description    name  name    email  email    softwareSuggestions  add_development_dependency     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk</title>
+      <link>/crosswalk/swo/</link>
+      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/swo/</guid>
+      <description>The Software Ontology (SWO) is a resource for describing software tools, their types, tasks, versions, provenance and data associated. SWO is part of the JISC funded SWORD project (Software Ontology for Resource Description), an inter-disciplinary effort to capture software descriptions used in the preservation of data. The work is a collaboration between the European Bioinformatics Institute and the University of Manchester.
+  Property  Software Ontology      programmingLanguage  programming language    license  software license    publisher  software publisher organization    version  Version    description  software    name  SoftwareTitle     </description>
+    </item>
+    
+    <item>
+      <title>Crosswalk for Dublin Core metadata</title>
+      <link>/crosswalk/dublincore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/crosswalk/dublincore/</guid>
+      <description>  Property  Dublin Core      creator  creator    dateCreated  created    datePublished  date    license  license    publisher  publisher    version  dcterms:hasVersion    description  description    identifier  identifier    name  title     </description>
     </item>
     
     <item>
