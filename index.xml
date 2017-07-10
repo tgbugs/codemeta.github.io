@@ -136,7 +136,7 @@ Users that only require instructions for manually creating CodeMeta software des
       <guid>/tools/</guid>
       <description>Tools This page lists some existing tools to help with CodeMeta files
 File Generation Some of the early tools still need a little updating to use the latest version of the codemeta context.
-  tool language codemeta version maintainer notes     CodeMeta file generator Ruby 0.1.0 (http://github.com/arfon) (no support for current schema)   Bolognese Ruby 1.0.0 (https://github.com/mfenner) primarily a tool for conversion between formats provided by DataCite, including codemeta and schema.</description>
+  tool language codemeta version maintainer notes     CodeMeta file generator Ruby 0.1.0 arfon (no support for current schema)   Bolognese Ruby 1.0.0 mfenner primarily a tool for conversion between formats provided by DataCite, including codemeta and schema.</description>
     </item>
     
     <item>
