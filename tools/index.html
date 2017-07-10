@@ -127,7 +127,19 @@
         <li class="nav-item">
           <a href="../jsonld">
             
-            <span>JSON-LD Context</span>
+            <span>JSON-LD</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="../tools">
+            
+            <span>Tools</span>
           </a>
         </li>
 
@@ -148,31 +160,87 @@
  
       <h1></h1>
         
-      
-
-<h3 id="tools">Tools</h3>
+      <h3 id="tools">Tools</h3>
 
 <p>This page lists some existing tools to help with CodeMeta files</p>
 
 <h4 id="file-generation">File Generation</h4>
 
-<p>Author: Arfon Smith</p>
+<p>Some of the early tools still need a little updating to use the latest version of the codemeta context.</p>
 
-<p>Language: Ruby</p>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>tool</th>
+<th>language</th>
+<th>codemeta version</th>
+<th>maintainer</th>
+<th>notes</th>
+</tr>
+</thead>
 
-<p>Description: Ruby file to generate a CodeMeta JSON file for version 0.1.0</p>
+<tbody>
+<tr>
+<td><a href="https://gist.github.com/arfon/478b2ed49e11f984d6fb">CodeMeta file generator</a></td>
+<td>Ruby</td>
+<td>0.1.0</td>
+<td><a class="cite" href="#arfon"></a>(<a href="http://github.com/arfon">http://github.com/arfon</a>)</td>
+<td>(no support for current schema)</td>
+</tr>
 
-<p><a href="https://gist.github.com/arfon/478b2ed49e11f984d6fb">CodeMeta file generation tool</a></p>
+<tr>
+<td><a href="https://github.com/datacite/bolognese">Bolognese</a></td>
+<td>Ruby</td>
+<td>1.0.0</td>
+<td><a class="cite" href="#mfenner"></a>(<a href="https://github.com/mfenner">https://github.com/mfenner</a>)</td>
+<td>primarily a tool for conversion between formats provided by DataCite, including codemeta and schema.org</td>
+</tr>
+
+<tr>
+<td><a href="https://codemeta.github.io/codemetar">codemetar</a></td>
+<td>R</td>
+<td>2.0.0</td>
+<td><a class="cite" href="#cboettig"></a>(<a href="https://github.com/cboettig">https://github.com/cboettig</a>)</td>
+<td>Generate codemeta for R packages; + generic codemeta manipulation</td>
+</tr>
+</tbody>
+</table>
 
 <h4 id="integrations">Integrations</h4>
 
-<p>Author: Arfon Smith, Kaitlin Thaney, Mark Hahnel</p>
+<p>Integrations indicate existing platforms &amp; services which understand CodeMeta descriptions. These do not provide a user-facing software tool for generating codemeta.json, but can ingest
+existing codemeta.json files automatically.</p>
 
-<p>Language: Ruby</p>
+<table class="table table-striped">
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Authors</th>
+<th>Language</th>
+<th>Codemeta Version</th>
+</tr>
+</thead>
 
-<p>Description: An ungodly union of GitHub and Figshare</p>
+<tbody>
+<tr>
+<td><a href="https://github.com/arfon/fidgit">Fidget</a>:</td>
+<td>An ungodly union of GitHub and Figshare</td>
+<td>Arfon Smith, Kaitlin Thaney, Mark Hahnel</td>
+<td>Ruby</td>
+<td>0.1.0</td>
+</tr>
+</tbody>
+</table>
 
-<p><a href="https://github.com/arfon/fidgit">Fidget</a></p>
+<p>Pending:</p>
+
+<ul>
+<li>JOSS</li>
+<li>Zenodo</li>
+<li>DataCite</li>
+<li>Figshare</li>
+</ul>
 
   
 
